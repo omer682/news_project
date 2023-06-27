@@ -1,0 +1,19 @@
+.title-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3d494a99;
+  height: 7vh;
+  margin: 0.3%;
+}
+
+.title-bar div:last-child {
+  margin-right: 13px;
+}
+
+
+.login-form {
+  width: 50%;
+  color: blue;
+}

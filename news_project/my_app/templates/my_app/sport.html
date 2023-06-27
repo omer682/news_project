@@ -1,0 +1,18 @@
+{% extends 'my_app/base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<ul>
+{% for article in articles %}
+<li onclick="window.alert(`{{article.category}}`)">
+    {{article.title}} 
+    </li>
+
+{%endfor%}
+
+
+</ul>
+
+{% endblock content %}
